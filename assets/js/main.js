@@ -1,5 +1,5 @@
-//  particlesJS.load('particles', 'assets/js/particles.json');
-// particlesJS.load('particles2', 'assets/js/particles2.json');
+particlesJS.load("particles", "assets/js/particles.json");
+particlesJS.load("particles2", "assets/js/particles2.json");
 let loader = document.getElementById("loader");
 window.addEventListener("load", () => {
   loader.classList.add("fade");
