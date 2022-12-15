@@ -750,5 +750,6 @@ nav {
   z-index: 9999999999;
 }
 main {
-  z-index: 0;
+  position: relative;
+  z-index: 1;
 }
