@@ -111,6 +111,7 @@ select {
   font-size: 14px;
   border-radius: 5px;
   font-family: "montserrat";
+  color: #202124 !important;
 }
 .form-select.style-2:focus-visible,
 .form-select.style-2:focus,
@@ -693,6 +694,18 @@ footer h5 {
     right: -276px;
   }
 }
+@media (min-width: 991.98px) and (max-width: 1399.98px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    right: -375px;
+    top: -142px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    right: -375px;
+    top: -142px;
+  }
+}
 @media screen and (max-width: 767.98px) {
   [dir="rtl"] .hero-section .bg-shape {
     right: -462px;
@@ -701,17 +714,21 @@ footer h5 {
 }
 @media (min-width: 461px) and (max-width: 567.98px) {
   [dir="rtl"] .hero-section .bg-shape {
-    left: -520px;
-    top: -130px;
+    right: -210px;
+    top: -8px;
   }
 }
 @media (max-width: 460.98px) {
   [dir="rtl"] .hero-section .bg-shape {
-    top: -95px;
-    left: -496px;
+    top: -115px;
+    right: -435px;
   }
 }
-
+@media screen and (max-width: 376.98px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    right: -480px;
+  }
+}
 [dir="rtl"] .about .stroke-text {
   right: -13px;
   left: unset;
