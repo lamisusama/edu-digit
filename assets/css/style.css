@@ -11,9 +11,10 @@
   src: url("fonts/Montserrat.ttf");
 }
 
-body,html{
-    margin:0;
-    padding:0;
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 * {
   padding: 0;
@@ -215,7 +216,7 @@ button[type="submit"]:hover {
   color: #fff;
   border-radius: 5px;
   border: none;
-  z-index:50
+  z-index: 50;
 }
 .btn-style-2:hover {
   background: #fff;
@@ -391,8 +392,8 @@ nav a {
 }
 .bg-shape {
   position: absolute;
-  left: -400px;
-  top: -50px;
+  left: -270px;
+  top: -21px;
   max-width: clamp(800px, 80vw, 1300px);
   fill: yellow;
 }
@@ -509,9 +510,8 @@ footer h5 {
   color: var(--color2);
 }
 .footer-content {
-    text-align: center;
+  text-align: center;
 }
-
 
 .footer-logo {
   max-width: 200px;
@@ -684,66 +684,63 @@ footer h5 {
 
 /********************************** RTL *****************************************/
 [dir="rtl"] .hero-section .bg-shape {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    right: -400px;
-    top: -50px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  right: -400px;
+  top: -50px;
 }
-@media (min-width: 1400px){
-    [dir="rtl"] .hero-section .bg-shape {
-        top: -125px;
-        right: -276px;
-    }
-
+@media (min-width: 1400px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    top: -125px;
+    right: -276px;
+  }
 }
-@media screen and (max-width:767.98px) {
-    [dir="rtl"] .hero-section .bg-shape {
-        right: -462px;
-        top: -90px;
-    }
+@media screen and (max-width: 767.98px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    right: -462px;
+    top: -90px;
+  }
 }
-@media (min-width: 461px) and (max-width:567.98px) {
-    [dir="rtl"] .hero-section .bg-shape {
-        left: -520px;
-        top: -130px;
-    }
+@media (min-width: 461px) and (max-width: 567.98px) {
+  [dir="rtl"] .hero-section .bg-shape {
+    left: -520px;
+    top: -130px;
+  }
 }
 @media (max-width: 460.98px) {
-    [dir="rtl"] .hero-section .bg-shape {
-        top: -95px;
-        left: -496px;
-    }
+  [dir="rtl"] .hero-section .bg-shape {
+    top: -95px;
+    left: -496px;
+  }
 }
 
 [dir="rtl"] .about .stroke-text {
-    right: -13px;
-    left: unset;
+  right: -13px;
+  left: unset;
 }
 
-    [dir="rtl"] .box-icon h5::before {
-        right: 0;
-        left: unset;
-    }
+[dir="rtl"] .box-icon h5::before {
+  right: 0;
+  left: unset;
+}
 
-    [dir="rtl"] :is(input, select) {
-        text-align: right;
-    }
+[dir="rtl"] :is(input, select) {
+  text-align: right;
+}
 
-    [dir="rtl"] .btn-style-2 svg {
-        transform: scalex(-1);
-    }
+[dir="rtl"] .btn-style-2 svg {
+  transform: scalex(-1);
+}
 
-    [dir="rtl"] :is(body, input, select) {
-        font-family: "cairo";
-    }
+[dir="rtl"] :is(body, input, select) {
+  font-family: "cairo";
+}
 
-    [dir="rtl"] :is(h1, h2, h3, h4, h5, h6) {
-        font-family: "cairo";
-    }
+[dir="rtl"] :is(h1, h2, h3, h4, h5, h6) {
+  font-family: "cairo";
+}
 
-    [dir="rtl"] .to-top {
-        left: 50px;
-        right: unset;
-    }
-
-
+[dir="rtl"] .to-top {
+  left: 50px;
+  right: unset;
+}
