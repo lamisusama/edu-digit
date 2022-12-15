@@ -746,8 +746,9 @@ footer h5 {
 }
 
 nav {
-  top: 0;
+  top: 0 !important;
+  z-index: 9999999999;
 }
 main {
-  margin-top: 100px;
+  z-index: 0;
 }
